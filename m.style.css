@@ -1,6 +1,6 @@
 @font-face {
     font-family: vazir;
-    src: url(/Vazir-Medium.ttf);
+    src: url(Vazir-Medium.ttf);
 }
 *{
     font-family: vazir;
@@ -155,4 +155,5 @@ body{
 }
 .linkki a{
     color: rgb(247, 38, 38);
+
 }
