@@ -1,0 +1,158 @@
+@font-face {
+    font-family: vazir;
+    src: url(/Vazir-Medium.ttf);
+}
+*{
+    font-family: vazir;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 101, 101);
+}
+.signin-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 24px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 7%;
+    height: 400px;
+    padding-top: 15px;
+}
+@media (max-width:768px) {
+    .signin-box{
+        flex-direction: column;
+        height: auto;
+    }
+    .bear-img{
+        width: 80%;
+        height: auto;
+        margin-top: 15px;
+    }
+}
+.bear-img{
+    width: 38%;
+    height: 80%;
+}
+.bear-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.first-talk{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.first-talk p{
+    font-size: 13px;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mail-pass{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.mail-pass input{
+ height: 35px;
+ border-radius: 8px;
+ background-color: #ffc1c1;
+ border: none;
+}
+.mail-pass input:focus{
+    outline: 2px solid rgb(204, 28, 37);
+    background-color: #ffbebe;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.forgot{
+    font-size: 10px;
+    color:  rgb(247, 38, 38);
+    text-decoration: none;
+}
+.login{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   background-color: rgb(204, 28, 37);
+   height: 35px;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+}
+.login, .signin-google a{
+    transition: 0.3s all;
+}
+.boxes .login:hover{
+    background-color: rgb(243, 148, 148);
+    color: black;
+}
+.boxes .signin-google a:hover{
+    color: rgb(247, 38, 38);
+}
+.didi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.didi p{
+    font-size: 10px;
+    color:  rgb(255, 126, 126);
+}
+.didi .divider{
+    /*background-color: rgba(0,0,0,0.3);*/
+    background-color: rgb(255, 126, 126);
+    height: 1px;
+    width: 60px;
+}
+.signin-google{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 8px;
+    background: 
+    linear-gradient(white,white) padding-box,
+    linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+        ) border-box;
+    border: 2px solid transparent;
+    margin-bottom: 0px;
+}
+.signin-google a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.linkki{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkki a{
+    color: rgb(247, 38, 38);
+}
